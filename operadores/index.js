@@ -8,3 +8,4 @@ for(i = 1; i <= 10; i++){ //++ em frente a variavel para adicionar mais 1 valor 
     console.log("pinto?")
 }
 
+//laço for para loops
