@@ -53,8 +53,15 @@ main{
 }
 
 .historico{
+    padding-top: 15px;
     background-color: cadetblue;
     height: 250px;
     width: 500px;
     border: 6px solid black ;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }

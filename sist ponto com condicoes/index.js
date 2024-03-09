@@ -9,6 +9,7 @@ botao.addEventListener('click', ponto)
 
 function ponto() {
     let funcionario = usuario.value
+    
     if (horario >= 6 && horario < 11) {
         resultado.innerHTML = `Bom Dia ${funcionario}, Registrado às ${horario}:${minutos}`;
     } else if (horario >= 11 && horario < 13) {
