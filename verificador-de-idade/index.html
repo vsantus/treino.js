@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua idade?</title>
+    
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .verificador{
+            width: 500px;
+            height: 200px;
+            background-color: darkslateblue;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #resultado{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+    
+        
+    </style>
+
+    <h1>Verificar de idade</h1>
+    <div class="verificador">
+
+        <p>Ano Nascimento:
+            <input type="number" name="ano" id="ano" min="0">
+        </p>
+
+        <p>Sexo:
+            <input type="radio" name="radio-sex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radio-sex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()" id="botao">
+        </p>
+    </div>
+
+    <div id="resultado">
+        <strong>Preencha os dados acima para ver o resultado </strong>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
