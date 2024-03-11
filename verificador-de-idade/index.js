@@ -19,25 +19,25 @@ function verificar() {
             genero = 'Homem'
             resultado.style.backgroundColor = "cornflowerblue";
             if (idade >= 0 && idade < 10) {
-                img.setAttribute('src', 'criancaM.jpg');
+                img.setAttribute('src', 'img/criancaM.jpg');
             } else if (idade < 21) {
-                img.setAttribute('src', 'jovemM.jpg');
+                img.setAttribute('src', 'img/jovemM.jpg');
             } else if (idade < 50) {
-                img.setAttribute('src', 'adultoM.jpg');
+                img.setAttribute('src', 'img/adultoM.jpg');
             } else {
-                img.setAttribute('src', 'idosoM.jpg');
+                img.setAttribute('src', 'img/idosoM.jpg');
             }
         } else if (sex[1].checked) {
             genero = "Mulher"
             resultado.style.backgroundColor = "palevioletred";
             if (idade >= 0 && idade < 10){
-                img.setAttribute('src', 'criancaF.jpg');
+                img.setAttribute('src', 'img/criancaF.jpg');
             } else if (idade < 21){
-                img.setAttribute('src', 'jovemF.jpg');
+                img.setAttribute('src', 'img/jovemF.jpg');
             } else if (idade < 50){
-                img.setAttribute('src', 'adultaF.jpg');
+                img.setAttribute('src', 'img/adultaF.jpg');
             } else {
-                img.setAttribute('src', 'idosaF.jpg');
+                img.setAttribute('src', 'img/idosaF.jpg');
             }
         }
         resultado.innerHTML = `Sua idade é de ${idade} anos e você é ${genero}`
