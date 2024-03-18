@@ -16,5 +16,5 @@ function click() {
     let quantidadeMaterial = quantidade.value;
     let usuario = funcionario.value;
 
-    historico.innerHTML = `Colaborador: ${usuario} <br> Material: ${materialCor}, Quantidade de Pacotes: ${quantidadeMaterial}`;
+    historico.innerHTML = `Colaborador: ${usuario} <br> Material: ${materialCor} <br> Quantidade de Pacotes: ${quantidadeMaterial}`;
 }
