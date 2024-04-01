@@ -5,16 +5,16 @@
 //     console.log(`exibição ${teste}`);
 // }
 
-let bateria = "Bateria esta carregando.." 
-let carga = true
+// let bateria = "Bateria esta carregando.." 
+// let carga = true
 
-console.log(bateria);
-console.log("Bateria carregada. is:" + carga)
+// console.log(bateria);
+// console.log("Bateria carregada. " + carga)
 
-let soma = 10 + 10
+// let soma = 10 + 10
 
-console.log(soma)
+// console.log(soma)
 
-const texto = 'Vinicius ' + 'Santos'
+// const texto = 'Vinicius ' + 'Santos'
 
-console.log(texto)
+// console.log(texto)

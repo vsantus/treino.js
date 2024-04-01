@@ -1,6 +1,7 @@
 let usuario = document.querySelector('#funcionario');
 var botao = document.querySelector('#botao');
-var resultado = document.querySelector('#resultado')
+var resultado = document.querySelector('#resultado');
+
 var agora = new Date();
 var horario = agora.getHours();
 var minutos = agora.getMinutes();
