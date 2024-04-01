@@ -9,7 +9,7 @@ let bateria = "Bateria esta carregando.."
 let carga = true
 
 console.log(bateria);
-console.log("Bateria carregada. " + carga)
+console.log("Bateria carregada. is:" + carga)
 
 let soma = 10 + 10
 
