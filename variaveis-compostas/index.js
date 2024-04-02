@@ -17,12 +17,33 @@
 
 let numeros = [1,2,3,4]
 
-console.log(numeros)
+// console.log(numeros)
 
-numeros[4] = 5 // numero entra [] significa ordem na linha e o depois de = o numero que vai entrar no array
+// numeros[4] = 5 // numero entra [] significa ordem na linha e o depois de = o numero que vai entrar no array
 
-console.log(numeros)
+// console.log(numeros)
 
-numeros.push(6) // push significa adicionar numero por ultimos no array
+// numeros.push(6) // push significa adicionar numero por ultimos no array
 
-console.log(numeros)
+// console.log(numeros)
+
+// console.log('o array tem ' + numeros.length + ' posições')
+
+
+// console.log('primeiro valor do array é: ' + numeros[0])
+
+let numeros2 = [4,1,2,5,3]
+
+// console.log(numeros2 + ' array bagunçado')
+
+// numeros2.sort() // organizar o array, coloca ele em ordem
+
+// console.log(numeros2 + ' array com sort()')
+
+// for(let pos = 0; pos <= numeros2.length; pos++){
+//     console.log(`A posição ${pos} tem o valor de ${numeros2[pos]}`)
+// }
+
+for(let pos in numeros2){
+    console.log(`A posição ${pos} tem o valor de ${numeros2[pos]}`)
+} // forma simplificada de fazer laço for, IMPORTANTE
