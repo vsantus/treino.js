@@ -1,0 +1,2 @@
+// criar sistema que recebe um numero como informação, ao clicar em registrar ele mostra simultaneamente o valor inserido em outro input
+// abaixo do outro input um botao finalizar, ap clicar finalizar exibir todo os valores adicionados, cada um com uma mensagem 
