@@ -18,3 +18,15 @@
 // const texto = 'Vinicius ' + 'Santos'
 
 // console.log(texto)
+
+
+
+// teste objeto
+var teste = {
+    nome: 'goiaba',
+    peso: '1kg',
+    qtd: 10
+};
+
+console.table(teste)
+console.table(teste.peso)
